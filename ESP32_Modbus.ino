@@ -46,8 +46,8 @@ const char MAIN_page[] PROGMEM = R"=====(
 <body>
 <center>
 <h1>ESP32 Yaskawa V1000 demo: 1</h1><br>
-Click to Run Forward<a href="Run Forward">RUN FOR</a><br>
-Click to Run Reverse<a href="Run Reverse">RUN REV</a><br>
+Click to Run Forward<a href="RunForward">RUN FOR</a><br>
+Click to Run Reverse<a href="RunReverse">RUN REV</a><br>
 Click to Stop <a href="Stop">STOP</a><br>
 <hr>
 </center>
