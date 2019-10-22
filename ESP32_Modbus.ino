@@ -18,10 +18,8 @@
                                                                        // It probably needs to be 2 pins where we set pin1 and then set pin2 = !pin1
 
 char      chBuffer[128];                                               // general purpose character buffer
-char      chPassword[] =                  "KAFcdc2014";                // your network password
-char      chSSID[] =                      "To Infinity!";              // your network SSID
-//char      chPassword[] =                  "WIFISec16";               // your network password
-//char      chSSID[] =                      "DSCARWASH";               // your network SSID
+char      chPassword[] =                  "******";                // your network password
+char      chSSID[] =                      "******";              // your network SSID
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C       u8g2(U8G2_R0, 16, 15, 4);    // OLED graphics
 int       nWifiStatus =                   WL_IDLE_STATUS;              // wifi status
 
